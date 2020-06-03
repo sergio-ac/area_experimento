@@ -6,6 +6,7 @@ namespace ArathsBaby.Infrastructure.Data
 {
     public class ArathsBabyContext : DbContext
     {
+        
         public ArathsBabyContext(DbContextOptions<ArathsBabyContext> options) : base(options)
         {
         }
