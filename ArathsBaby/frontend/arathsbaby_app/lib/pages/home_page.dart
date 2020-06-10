@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import './products_page.dart';
 import './user_page.dart';
+import './pruebas_page.dart';
 
 class HomePage extends StatefulWidget {
     // This widget is the root of your application.
@@ -66,6 +67,10 @@ void switchUser(){
             new ListTile(
               title: new Text("Pruebas"),
               trailing: new Icon(Icons.new_releases),
+              onTap: () {
+                 Navigator.of(context).pop();
+                 Navigator.of(context).push(new MaterialPageRoute(builder : (BuildContext context) => new PruebasPage()));
+              },
             ),
             
             new Divider(),

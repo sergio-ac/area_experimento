@@ -1,6 +1,7 @@
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using ArathsBaby.Core.Models;
 
 namespace ArathsBaby.Infrastructure.Data
 {
@@ -9,7 +10,10 @@ namespace ArathsBaby.Infrastructure.Data
         
         public ArathsBabyContext(DbContextOptions<ArathsBabyContext> options) : base(options)
         {
+
         }
+        public DbSet <User> User {get;set;}
+        public DbSet <Product> Product {get;set;}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -26,4 +30,5 @@ namespace ArathsBaby.Infrastructure.Data
             base.OnModelCreating(modelBuilder);
         }   
     }
+    
 }

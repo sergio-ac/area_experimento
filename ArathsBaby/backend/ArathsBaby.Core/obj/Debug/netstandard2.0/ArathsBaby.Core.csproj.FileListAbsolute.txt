@@ -1,0 +1,8 @@
+C:\xampp\htdocs\area_experimento\area_experimento\ArathsBaby\backend\ArathsBaby.Core\obj\Debug\netstandard2.0\ArathsBaby.Core.csprojAssemblyReference.cache
+C:\xampp\htdocs\area_experimento\area_experimento\ArathsBaby\backend\ArathsBaby.Core\obj\Debug\netstandard2.0\ArathsBaby.Core.AssemblyInfoInputs.cache
+C:\xampp\htdocs\area_experimento\area_experimento\ArathsBaby\backend\ArathsBaby.Core\obj\Debug\netstandard2.0\ArathsBaby.Core.AssemblyInfo.cs
+C:\xampp\htdocs\area_experimento\area_experimento\ArathsBaby\backend\ArathsBaby.Core\bin\Debug\netstandard2.0\ArathsBaby.Core.deps.json
+C:\xampp\htdocs\area_experimento\area_experimento\ArathsBaby\backend\ArathsBaby.Core\bin\Debug\netstandard2.0\ArathsBaby.Core.dll
+C:\xampp\htdocs\area_experimento\area_experimento\ArathsBaby\backend\ArathsBaby.Core\bin\Debug\netstandard2.0\ArathsBaby.Core.pdb
+C:\xampp\htdocs\area_experimento\area_experimento\ArathsBaby\backend\ArathsBaby.Core\obj\Debug\netstandard2.0\ArathsBaby.Core.dll
+C:\xampp\htdocs\area_experimento\area_experimento\ArathsBaby\backend\ArathsBaby.Core\obj\Debug\netstandard2.0\ArathsBaby.Core.pdb
