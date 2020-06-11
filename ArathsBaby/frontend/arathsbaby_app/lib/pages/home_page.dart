@@ -25,7 +25,7 @@ void switchUser(){
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(title: new Text("Araths Baby App"), backgroundColor: Colors.pinkAccent,),
-      drawer: new Drawer(
+      endDrawer: new Drawer(
         child: new ListView(
           children: <Widget>[
             new UserAccountsDrawerHeader(
@@ -54,7 +54,7 @@ void switchUser(){
               trailing: new Icon(Icons.view_list),
               onTap: () {
                 Navigator.of(context).pop();
-                 Navigator.of(context).push(new MaterialPageRoute(builder : (BuildContext context) => new ProductsPage("Productos")));
+                 Navigator.of(context).push(new MaterialPageRoute(builder : (BuildContext context) => new ProductsPage()));
               },
               
             ),
